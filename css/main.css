@@ -324,6 +324,32 @@ aside {
 .faq-content {
   margin-bottom: 50px;
 }
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -427,7 +453,7 @@ aside {
   } 
 
   header .content-wrapper {
-    width:100;
+    width:100%;
     justify-content: space-between;
   }
 
@@ -470,7 +496,7 @@ aside {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* ----- reviews ----- */
@@ -533,7 +559,7 @@ aside {
   }
 
   .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
   .faq h2 {
@@ -544,13 +570,18 @@ aside {
 @media only screen and (min-width: 1200px) {
   /* ----- desktop styles here ----- */
 }
+
+header {
+  padding: 15px 0;
+}
+
 .content-wrapper {
   max-width: 960px;
 }
 
 /* ----- hero ----- */
 .hero-area h1{
-  width:75%;
+  width:60%;
 }
 
 /*----- aside ----- */
@@ -560,27 +591,27 @@ aside .content-wrapper{
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 33%;
+  width: 30%;
 }
 
 /* ----- features ----- */
 .features h2 {
-  width: 87%;
+  width: 90%;
 }
 
 .features article {
-  flex-basis: 320px;
+  flex-basis: 33%;
 }
 
 /* ----- reviews ----- */
 .reviews article div {
-  width: 50%;
+  width: 42%;
 }
 
 /* ----- about page ----- */
 .mission h2,
 .contact-section .content-wrapper h2 {
-  width: 960px;
+  width: 95%;
 }
 
 /* ----- faq page ----- */
